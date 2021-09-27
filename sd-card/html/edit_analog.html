@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="icon" href="data:,">
 <meta charset="utf-8"/>
 <title>Make Analog Alignment</title>
 
@@ -243,7 +244,8 @@ function SaveToConfig(){
     _zwcat = getConfigCategory();
     _zwcat["Analog"]["enabled"] = document.getElementById("Category_Analog_enabled").checked;
     WriteConfigININew();
-    SaveConfigToServer(basepath);    
+    SaveConfigToServer(basepath);  
+	alert("Config.ini is updated!");
 }
 
 

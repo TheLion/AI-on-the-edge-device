@@ -47,6 +47,37 @@ In other cases you can contact the developer via email: <img src="https://raw.gi
 
 
 
+##### 8.4.0 - Multi Meter Support (2021-09-25)
+
+* License change (remove MIT license, remark see below)
+
+* html: show hostname in title and main page
+
+* configuration: 
+
+  * moved setting `ExtendedResolution` to individual number settings
+  * New parameter `IgnoreLeadingNaN` (delete leading NaN's specifically)
+  * **ATTENTION**: update of the `config.ini` needed (open, adjust `ExtendedResolution`, save)
+
+* Bug fixing (html, images of recognized numbers)
+
+  
+
+### **ATTENTION: LICENSE CHANGE - removal of MIT License.** 
+
+- Currently no licence published - copyright belongs to author
+- If you are interested in a commercial usage or dedicated versions please contact the developer
+  - no limits to private usage
+
+
+
+##### 8.3.0 - Multi Meter Support (2021-09-12)
+
+* Upgrade digital CNN to v12.1.0 (added new images)
+* Dedicated NaN handling, internal refactoring (CNN-Handling)
+* HTML: confirmation after config.ini update
+* Bug fixing
+
 ##### 8.2.0 - Multi Meter Support (2021-08-24)
 
 * Improve server responsiveness
